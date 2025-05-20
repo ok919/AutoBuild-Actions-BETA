@@ -30,7 +30,7 @@ export GITHUB_WORKSPACE=$(pwd)
 export WORK="${GITHUB_WORKSPACE}/openwrt"
 export CONFIG_TEMP="${WORK}/.config"
 
-Rexport REPO_URL="https://github.com/coolsnowwolf/lede"
+export REPO_URL="https://github.com/coolsnowwolf/lede"
 export REPO_BRANCH=master
 export Compile_Date=$(date +%Y%m%d%H%M)
 export Display_Date=$(date +%Y/%m/%d)
